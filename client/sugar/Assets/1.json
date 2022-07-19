@@ -1,0 +1,28 @@
+{
+    "name": "new 2",
+    "symbol": "AB",
+    "description": "Collection of - numbers on the blockchain. This is the number -/-.",
+    "seller_fee_basis_points": 500,
+    "image": "1.png",
+    "attributes": [
+        { "trait_type": "Layer-1", "value": "0" },
+        { "trait_type": "Layer-2", "value": "0" },
+        { "trait_type": "Layer-3", "value": "0" },
+        { "trait_type": "Layer-4", "value": "1" }
+      ],
+    "properties": {
+        "files": [
+            {
+                "uri": "1.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "AHS843DZjDhUkSPV5tZnrWBaW2yQfh6Q76wBYGsdXLzg",
+                "share": 100
+            }
+        ]
+    },
+    "collection": { "name": "numbers", "family": "numbers" }
+}

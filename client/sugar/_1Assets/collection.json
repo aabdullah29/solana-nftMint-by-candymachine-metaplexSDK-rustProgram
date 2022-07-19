@@ -1,0 +1,27 @@
+{
+    "name": "My Collection",
+    "symbol": "AB",
+    "description": "Collection of my all nft's",
+    "image": "collection.png",
+    "attributes": [
+        { "trait_type": "Layer-1", "value": "0" },
+        { "trait_type": "Layer-2", "value": "0" },
+        { "trait_type": "Layer-3", "value": "0" },
+        { "trait_type": "Layer-4", "value": "1" }
+      ],
+    "properties": {
+        "files": [
+            {
+                "uri": "collection.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "AHS843DZjDhUkSPV5tZnrWBaW2yQfh6Q76wBYGsdXLzg",
+                "share": 100
+            }
+        ]
+    },
+    "collection": { "name": "numbers", "family": "numbers" }
+}

@@ -1,0 +1,121 @@
+https://www.youtube.com/watch?v=c1GJ-13z6pE&list=PLUBKxx7QjtVnU3hkPc8GF1Jh4DE7cf4n1&index=8&ab_channel=Coding%26Crypto
+
+https://www.youtube.com/watch?v=3tduM223KeE&list=PLUBKxx7QjtVnU3hkPc8GF1Jh4DE7cf4n1&index=9&ab_channel=Coding%26Crypto
+
+
+---------------------------------------------------------
+
+#Rust:
+    lib.rs
+        just import mint.rs and sell.rs modules and call that function and pass the punction input parameter
+
+    mint.rs
+        1: import some libraries
+        2: create MintNft struct
+        3: create the mint function which take 4 parameters (    ctx: Context<MintNft>,  metadata_title, metadata_symbol, metadata_uri)
+            function do:
+            1: Creating mint account
+            2: Initializing mint account
+            3: Creating token account
+            4: Minting token to token account.
+            5: Creating metadata account
+            6: Creating master edition metadata account
+
+        
+    sell.rs 
+        1: import some libraries
+        2: create SellNft struct
+        3: create the sell function which take 2 parameters (    ctx: Context<MintNft>,  sale_lamports)
+            function do:
+            1: Transfer sol from Purchaser to Seller (receiving lamports)
+            2: Creating buyer token account
+            3: Transferring NFT
+
+
+
+
+---------------------------------------------------------
+
+#Test in ts:
+mint and sell nft
+
+
+#my-solana-wallet
+keypair of seller and buyer
+
+
+normal minting:
+A normal NFT can be created by making a Master Edition with a max supply of 0.
+
+
+
+
+
+---------------------------------------------------------
+
+surag: 
+[1/2] 🍬 Creating candy machine
+Candy machine ID: 4m91Fmm1ZnS2KEiiNoNaVRXb9WxXtBXBVrKbAaWgiw1S
+
+[2/2] 📝 Writing config lines
+Sending config line(s) in 1 transaction(s): (Ctrl+C to abort)
+[00:00:03] Write config lines successful ████████████████████████████████████████████████████████████████████████████████████████████████ 1/1
+
+✅ Command successful.
+
+
+
+
+sugar verify --cache cache.json`
+sugar mint --cache cache.json
+sugar show 4m91Fmm1ZnS2KEiiNoNaVRXb9WxXtBXBVrKbAaWgiw1S
+sugar withdraw  4m91Fmm1ZnS2KEiiNoNaVRXb9WxXtBXBVrKbAaWgiw1S
+
+
+
+
+
+---------------------------------------------------------
+
+sogur collection:
+[1/3] 🍬 Creating candy machine
+Candy machine ID: CmkhgVkxvt4jzh1pQvEMHBY5AmRqkWpYjxnpi7rv2CUb
+
+[2/3] 📝 Writing config lines
+Sending config line(s) in 1 transaction(s): (Ctrl+C to abort)
+[00:00:03] Write config lines successful ████████████████████████████████████████████████████████████████████████████████████████████████ 1/1
+
+[3/3] 📦 Creating and setting the collection NFT for candy machine
+Collection mint ID: Eb1vrX8XPhNPFdub1KF8GMFpV7RboU53V5yECeGbo9CS
+
+✅ Command successful.
+
+
+sugar verify --cache cache.json
+sugar mint -n 3
+sugar verify --cache cache.json`
+sugar show CmkhgVkxvt4jzh1pQvEMHBY5AmRqkWpYjxnpi7rv2CUb
+sugar withdraw CmkhgVkxvt4jzh1pQvEMHBY5AmRqkWpYjxnpi7rv2CUb
+
+
+
+
+
+---------------------------------------------------------
+
+sogur add more items in previous collection:
+[1/2] 🍬 Creating candy machine
+Candy machine ID: 9nJQEQYfsKHU6gjYpDCcq8DVnXs92Yjy1mCnjeW8khzR
+
+[2/2] 📝 Writing config lines
+Sending config line(s) in 1 transaction(s): (Ctrl+C to abort)
+[00:00:03] Write config lines successful ████████████████████████████████████████████████████████████████████████████████████████████████ 1/1
+
+✅ Command successful.
+
+sugar verify --cache cache.json
+sugar collection set Eb1vrX8XPhNPFdub1KF8GMFpV7RboU53V5yECeGbo9CS 
+sugar verify --cache cache.json
+sugar mint -n 3
+sugar show 9nJQEQYfsKHU6gjYpDCcq8DVnXs92Yjy1mCnjeW8khzR
+sugar withdraw 9nJQEQYfsKHU6gjYpDCcq8DVnXs92Yjy1mCnjeW8khzR

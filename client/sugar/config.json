@@ -1,0 +1,25 @@
+{
+    "price": 0.5,
+    "number": 3,
+    "symbol": "AB",
+    "sellerFeeBasisPoints": 500,
+    "gatekeeper": null,
+    "solTreasuryAccount": "AHS843DZjDhUkSPV5tZnrWBaW2yQfh6Q76wBYGsdXLzg",
+    "splTokenAccount": null,
+    "splToken": null,
+    "goLiveDate": "19 Jul 2022 00:00:00 GMT",
+    "endSettings": null,
+    "whitelistMintSettings": null,
+    "hiddenSettings": null,
+    "storage": "arweave",
+    "uploadMethod": "bundlr",
+    "awsS3Bucket": null,
+    "retainAuthority": true,
+    "isMutable": true,
+    "creators": [
+        {
+          "address": "AHS843DZjDhUkSPV5tZnrWBaW2yQfh6Q76wBYGsdXLzg",
+          "share": 100
+        }
+      ]
+}

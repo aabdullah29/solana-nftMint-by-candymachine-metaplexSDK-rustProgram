@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+metaplex_anchor_nft = "9Ts7ikXDu5ZomHrPybrUiuNF8WqYBkVxdujLsQ7jWs7T"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/umaid/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

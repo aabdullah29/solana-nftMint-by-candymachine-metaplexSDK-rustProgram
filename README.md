@@ -50,3 +50,9 @@
 6. `sugar show <CANDY MACHINE>`
 7. `sugar withdraw <CANDY MACHINE>`
 8. `sugar bundlr balance` and `sugar bundlr withdraw`
+
+
+## 5. otherNftWork:
+1. `nft_metaplex_function` metaplex nft functions
+2. `nft_mint_anchor` mint nft using rust program write in rust using metaplex sdk written with anchor
+3. `nft-mint-transfer-frontend` mint and transfer nft through front end **[use shyft api](https://docs.shyft.to/start-hacking/nft) **

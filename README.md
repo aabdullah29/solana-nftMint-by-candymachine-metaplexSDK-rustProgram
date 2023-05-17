@@ -54,5 +54,6 @@
 
 ## 5. otherNftWork:
 1. `nft_metaplex_function` metaplex nft functions
-2. `nft_mint_anchor` mint nft using rust program write in rust using metaplex sdk written with anchor
+2. `nft-mint-rust-anchor` mint nft using rust program write in rust using metaplex sdk written with anchor
+    - `frontend` frontend for that rust program that will integrate the phantom wallet then get perameters and mint the nft
 3. `nft-mint-transfer-frontend` mint and transfer nft through front end **[use shyft api](https://docs.shyft.to/start-hacking/nft) **
